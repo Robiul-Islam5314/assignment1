@@ -1,0 +1,109 @@
+@font-face {
+    src: url(fonts/Audiowide-Regular.ttf);
+    font-family: awd;
+}
+body {
+    font-family: awd;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+    margin: 0 auto;
+}
+.topnav {
+  overflow: hidden;
+  background-color: white;
+  padding-right: 180px;
+}
+.topnav a {
+        float: right;
+        color: #000000;
+        padding: 80px 30px;
+        text-decoration: none;
+        font-size: 30px;
+}
+.topnav a:hover{
+   color: tomato;
+}
+.name-sec{
+    width: 50%;
+    float:left;
+    margin-left: 5%;
+    padding-left: 20px;
+    padding-top: 50px;
+}
+h1{
+    font-size: 110px ;
+    color: #363958;
+}
+.name-sec h2{
+    color:#FF8367;
+    line-height: 0;
+    font-size: 120px;
+}
+p{
+    padding: 20px 0;
+    font-size: 30px;
+    line-height: 60px;
+}
+.name-sec a {
+   text-decoration: none;
+   background-image: linear-gradient( 180deg, #F56160, #FC7762); 
+   color: white;
+   padding: 20px 80px;
+   border-radius: 8px;
+   font-size: 30px;
+}
+.name-sec a:hover{
+    background-image: linear-gradient( 180deg, white, #f3f3f3);
+    color:tomato;
+}
+.image-name img{
+    float: right;
+    width: 35%; 
+    padding-top: 100px;  
+}
+.about-sec{
+    width: 35%;
+    float:right;
+    margin-right: 5%;
+    padding-right: 50px;
+    padding-top: 100px;
+}
+.about-sec h1{
+    font-size: 80px ;
+    color: #363958;
+}
+.about-sec a{
+   text-decoration: none;
+   background-image: linear-gradient( 180deg, #F56160, #FC7762); 
+   color: white;
+   padding: 20px 80px;
+   border-radius: 8px;
+   font-size: 30px;
+}
+.about-sec a:hover{
+    background-image: linear-gradient( 180deg, white, #f3f3f3);
+    color:tomato;
+}
+.image-about img{
+    float: left;
+    width: 35%; 
+    padding-top: 100px;  
+}
+.project {
+    background-color: #F8F9FC;
+    margin-top: 800px;
+}
+.highlight{
+    color:tomato;
+}
+.project h2{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 60px;
+    padding: 50px;
+}
+.foot{
+    text-align: center;
+}
